@@ -29,7 +29,18 @@
     padding: 12px 25px;
 }
 
-.card {
+.btn-submit {
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+    color: #fff;
     border: none;
-    box-shadow: 5px 5px 10px lightgrey;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.subscribe-padding {
+    padding: 6% 0;
+}
+
+.padding-bottom-lg {
+    padding-bottom: 5%;
 }
