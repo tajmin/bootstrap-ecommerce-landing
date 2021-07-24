@@ -6,10 +6,30 @@
     background-color: #FEEAE9;
 }
 
+.section-bg-color {
+    background: #F4F4F4;
+}
+
+.cat-bg-watch {
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+
+.cat-bg-bag {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+
+.cat-bg-shoe {
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+
 .btn-buy {
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     color: #fff;
     border: none;
-    /* border-radius: 8px;
-    padding: 9px 25px; */
+    padding: 12px 25px;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
 }
