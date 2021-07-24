@@ -11,14 +11,126 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- favicon -->
+    <link rel="icon" href="icons/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="icons/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="icons/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="icons/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon/apple-touch-icon.png">
 </head>
 
 <body>
-    <h1>This is panda, roj khao anda. sob hoye jabe thanda!</h1>
+    <!-- header section  -->
+    <header>
+        <!-- navbar -->
+        <div class="container mb-5 py-3">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid d-flex">
+                    <a class="navbar-brand me-auto" href="#"><img src="images/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Backpack</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shoes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Subscribe</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- top-banner  -->
+        <section class="container">
+            <div id="carouselExampleIndicators" class="carousel slide banner-bg-color" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row d-flex align-items-center p-5">
+                            <div class="col-md-7">
+                                <h1 class="">Headphones by Razr</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eligendi,
+                                    exercitationem asperiores, nam veniam odit porro, dolor nobis obcaecati maxime alias
+                                    cum pariatur quibusdam consequuntur!</p>
+                                <h1>$425</h1>
+                                <button class="btn btn-buy">Buy Now</button>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center p-5">
+                            <div class="col-md-7">
+                                <h1 class="">Mi 4A 4K LED TV</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eligendi,
+                                    exercitationem asperiores, nam veniam odit porro, dolor nobis obcaecati maxime alias
+                                    cum pariatur quibusdam consequuntur!</p>
+                                <h1>$600</h1>
+                                <button class="btn btn-buy">Buy Now</button>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center p-5">
+                            <div class="col-md-7">
+                                <h1 class="">XBOX SERIES X</h1>
+                                <p>The fastest, most powerful Xbox ever. Ipsum dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Commodi eligendi,
+                                    exercitationem asperiores, nam veniam odit porro, dolor nobis obcaecati maxime alias
+                                    cum pariatur quibusdam consequuntur!</p>
+                                <h1>$579</h1>
+                                <button class="btn btn-buy">Buy Now</button>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+
     <!-- bootstrap script  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 </body>
+
 
 </html>
